@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — What's 4 Dinner</title>
+  <meta name="description" content="Privacy Policy for the What's 4 Dinner mobile app.">
+  <style>
+    :root {
+      --ink: #2a1408;
+      --muted: #5c4030;
+      --paper: #fff8ef;
+      --band: #fff1de;
+      --accent: #e86a12;
+      --line: #e2c9a8;
+      --card: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(1200px 500px at 10% -10%, #ffe2b8 0%, transparent 55%),
+        radial-gradient(900px 400px at 100% 0%, #ffd9c2 0%, transparent 50%),
+        var(--paper);
+      line-height: 1.65;
+    }
+    header {
+      background: linear-gradient(135deg, #ff8a2b, #e45a0c 55%, #c44708);
+      color: #fffaf3;
+      padding: 2.75rem 1.25rem 2.25rem;
+    }
+    header .wrap, main.wrap, footer .wrap {
+      max-width: 740px;
+      margin: 0 auto;
+    }
+    header h1 {
+      margin: 0 0 0.35rem;
+      font-size: clamp(1.75rem, 4vw, 2.35rem);
+      letter-spacing: -0.02em;
+    }
+    header p {
+      margin: 0;
+      opacity: 0.95;
+      font-size: 1.05rem;
+    }
+    main.wrap {
+      padding: 1.75rem 1.25rem 3rem;
+    }
+    .meta {
+      display: grid;
+      gap: 0.35rem;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 1rem 1.15rem;
+      margin-bottom: 1.75rem;
+      box-shadow: 0 8px 24px rgba(80, 40, 10, 0.06);
+    }
+    .meta strong { color: var(--accent); }
+    h2 {
+      margin: 2rem 0 0.75rem;
+      font-size: 1.25rem;
+      border-bottom: 2px solid var(--line);
+      padding-bottom: 0.35rem;
+    }
+    h3 {
+      margin: 1.35rem 0 0.5rem;
+      font-size: 1.05rem;
+      color: var(--muted);
+    }
+    p, li { color: var(--ink); }
+    ul { padding-left: 1.2rem; }
+    li { margin: 0.35rem 0; }
+    a { color: #b24700; }
+    a:hover { color: var(--accent); }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0.75rem 0 1rem;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    th, td {
+      text-align: left;
+      vertical-align: top;
+      padding: 0.75rem 0.85rem;
+      border-bottom: 1px solid var(--line);
+    }
+    th {
+      background: var(--band);
+      font-size: 0.92rem;
+    }
+    tr:last-child td { border-bottom: 0; }
+    .note {
+      margin-top: 2rem;
+      padding: 1rem 1.1rem;
+      background: var(--band);
+      border-left: 4px solid var(--accent);
+      border-radius: 0 12px 12px 0;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 1.25rem;
+      color: var(--muted);
+      font-size: 0.92rem;
+      background: rgba(255, 255, 255, 0.55);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Privacy Policy</h1>
+      <p>What's 4 Dinner</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="meta">
+      <div><strong>Last updated:</strong> July 23, 2026</div>
+      <div><strong>Package name:</strong> <code>com.whats4dinner.whats4dinner</code></div>
+      <div><strong>Contact:</strong> Brock Hall — <a href="mailto:hallanhype@gmail.com">hallanhype@gmail.com</a></div>
+    </div>
+
+    <p>This Privacy Policy describes how the mobile application <strong>What's 4 Dinner</strong> (“the App”) handles information when you use it. By using the App, you agree to this policy.</p>
+
+    <h2>1. Who we are</h2>
+    <p>The App is provided by <strong>Brock Hall</strong>. Contact email: <a href="mailto:hallanhype@gmail.com">hallanhype@gmail.com</a>.</p>
+
+    <h2>2. Summary</h2>
+    <ul>
+      <li>The App creates an <strong>anonymous account</strong> in the background (no name, email, or password required from you) so recipe search, daily limits, and subscriptions can work.</li>
+      <li><strong>Recipes</strong> are generated using <strong>Google Gemini</strong> (Google AI) via our <strong>Firebase Cloud Functions</strong>, and may be stored in <strong>Cloud Firestore</strong> / <strong>Cloud Storage</strong> so they can be reused.</li>
+      <li><strong>Your filters for a spin</strong> (such as food type, dietary preference, cook time, kid-friendly mode, servings, and allergy selections) are sent to our backend and to Google Gemini to generate a matching recipe.</li>
+      <li><strong>Favorites, meal plans, passport progress, and similar preferences</strong> are stored <strong>locally on your device</strong> (they are not uploaded as a personal cookbook to our servers).</li>
+      <li>The App shows <strong>advertisements</strong> using <strong>Google AdMob</strong> (with Google’s consent tools where required) and may use <strong>Firebase Analytics</strong>.</li>
+      <li>Optional <strong>Premium</strong> uses <strong>Google Play Billing</strong>.</li>
+    </ul>
+
+    <h2>3. Information the App processes</h2>
+
+    <h3>3.1 Data stored on your device (local)</h3>
+    <p>The App may store data in the app’s private storage on your device, including:</p>
+    <ul>
+      <li>Saved favorite / liked recipes and recipes you have marked as disliked</li>
+      <li>Meal plan entries</li>
+      <li>Culinary Passport progress (for example streaks, badges, cooked history)</li>
+      <li>Dinner preferences (servings, cook-time bias, dietary filters, kid-friendly option, meal categories, allergy-related selections, reminder and timer settings)</li>
+      <li>Recent recipes used for “don’t repeat too soon” behavior (also mirrored server-side for the anonymous account)</li>
+      <li>Anonymous Firebase Auth tokens and a local subscription status cache</li>
+      <li>Other app settings (locale, review-prompt state, ad spin counters, and similar)</li>
+    </ul>
+    <p>Uninstalling the App or clearing app data typically removes this local data (depending on your device and backup settings).</p>
+
+    <h3>3.2 Anonymous authentication (Firebase)</h3>
+    <p>When you use the App, it signs you in <strong>anonymously</strong> with <strong>Firebase Authentication</strong>. You do not create a username or password. Firebase assigns an opaque user ID so our backend can enforce free daily search limits, remember recently served recipes for your account, and associate a Google Play subscription with your App install/session.</p>
+    <p>We do not ask for your name, email address, or phone number for this account.</p>
+
+    <h3>3.3 Recipe search, AI generation, and cloud storage</h3>
+    <p>When you spin for a dinner idea, the App calls our Firebase Cloud Functions. Those functions may use:</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Service</th>
+          <th>Purpose</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Google Gemini (Google AI)</strong></td>
+          <td>Generate a recipe (and sometimes a dish image) from your spin filters and related prompt text.</td>
+        </tr>
+        <tr>
+          <td><strong>Cloud Firestore</strong></td>
+          <td>Store generated recipes in a shared recipe library; store per-anonymous-user search quota, recent served recipes, and subscription verification fields.</td>
+        </tr>
+        <tr>
+          <td><strong>Cloud Storage</strong></td>
+          <td>Store generated recipe images that can be loaded over HTTPS.</td>
+        </tr>
+        <tr>
+          <td><strong>Pixabay</strong></td>
+          <td>Fallback stock-image search if AI image generation is unavailable.</td>
+        </tr>
+        <tr>
+          <td><strong>TheMealDB</strong></td>
+          <td>Occasional client-side fallback for locating a matching dish photo.</td>
+        </tr>
+      </tbody>
+    </table>
+    <p><strong>What may be sent for a spin:</strong> food-type / category choices, dietary option, cook-time option, kid-friendly flag, servings, allergy selections, recently served recipe titles/IDs (to avoid repeats), and technical request metadata required to run the service.</p>
+    <p><strong>What we do not upload from your local cookbook:</strong> your full favorites list, meal plan, passport progress, or disliked-recipe list are not sent as a personal profile. Dislikes are used on-device to filter results.</p>
+    <p>Recipe text and images created by the service may be stored in our cloud databases so later users (including you) can receive a matching cached recipe. Those stored recipes are not labeled with your real-world identity.</p>
+
+    <h3>3.4 Subscriptions (Google Play Billing)</h3>
+    <p>If you purchase Premium, the App uses <strong>Google Play Billing</strong>. A purchase token and product identifier may be sent to our Cloud Functions so we can verify the subscription with Google Play and update your anonymous account’s entitlement. Google processes payment details under Google Play’s terms and privacy policy. We do not receive your full payment card number.</p>
+
+    <h3>3.5 Advertising and consent (Google AdMob / UMP)</h3>
+    <p>The App uses <strong>Google AdMob</strong> to display ads (for example banner and interstitial ads). In regions where required (such as the EEA/UK), the App may show Google’s <strong>User Messaging Platform (UMP)</strong> consent form. You may reopen privacy choices from Settings when available.</p>
+    <p>Google may use identifiers such as the advertising ID on Android, device information, and interaction data to show and measure ads, prevent fraud, and (where allowed) personalize ads.</p>
+
+    <h3>3.6 Analytics (Firebase Analytics)</h3>
+    <p>On Android, the App may use <strong>Firebase Analytics</strong> for basic usage metrics (for example screen views and events such as whether a recipe came from cache or was newly generated, with recipe id/category). Analytics is provided by Google.</p>
+
+    <h3>3.7 Feedback</h3>
+    <p>If you send in-app feedback, your message (and basic app/device context such as app version and device model) may be delivered through a form provider (<strong>Web3Forms</strong>) to reach us by email. Do not include sensitive personal information in feedback unless you are comfortable sharing it.</p>
+
+    <h3>3.8 Technical data</h3>
+    <p>Our backend providers and third-party APIs receive standard technical data involved in network requests (for example IP address, user agent, timestamps, and security tokens), as determined by their infrastructure and policies.</p>
+
+    <h2>4. We do not sell your personal data</h2>
+    <p>We do not sell your personal information. We use the data described above to operate the App (recipe search, limits, subscriptions, ads, analytics, and support).</p>
+
+    <h2>5. Children’s privacy</h2>
+    <p>The App is not directed at children under 13 (or the minimum age required in your country). We do not knowingly collect personal information from children for our own use beyond what third parties (such as Google) may process as part of normal ad, analytics, and network operations. If you believe a child has provided personal data in a way that concerns you, contact us at the email above.</p>
+
+    <h2>6. Security</h2>
+    <p>We use industry-standard providers (Firebase / Google) and keep favorites and many preferences on the device. No method of transmission or storage is 100% secure; use the App at your own discretion.</p>
+
+    <h2>7. International users</h2>
+    <p>If you use the App from outside your home country, data may be processed in countries where Google (Firebase, Gemini, AdMob, Analytics, Play), Pixabay, TheMealDB, Web3Forms, or their infrastructure operate.</p>
+
+    <h2>8. Your choices</h2>
+    <ul>
+      <li><strong>Ads / privacy choices:</strong> Use the in-app Settings privacy choices (where available), and/or your device and Google account settings to limit ad personalization.</li>
+      <li><strong>Local data:</strong> Clear app data or uninstall the App to remove locally stored preferences, favorites, and the anonymous auth session on that device.</li>
+      <li><strong>Subscription:</strong> Manage or cancel Premium through Google Play.</li>
+      <li><strong>Questions:</strong> Email <a href="mailto:hallanhype@gmail.com">hallanhype@gmail.com</a>.</li>
+    </ul>
+
+    <h2>9. Changes to this policy</h2>
+    <p>We may update this Privacy Policy from time to time. The “Last updated” date at the top will change when we do. Continued use of the App after changes means you accept the updated policy. For material changes, we may also update the policy URL in the Google Play listing.</p>
+
+    <h2>10. Third-party services</h2>
+    <ul>
+      <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a> (Firebase, Gemini / Google AI, AdMob, Analytics, Play)</li>
+      <li><a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use our services</a></li>
+      <li><a href="https://pixabay.com/service/privacy/">Pixabay</a></li>
+      <li><a href="https://www.themealdb.com">TheMealDB</a></li>
+    </ul>
+
+    <div class="note">
+      This document is provided for What's 4 Dinner. It is not legal advice. You may wish to have a lawyer review it for your jurisdiction (for example GDPR, UK GDPR, or US state laws) before publishing.
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      What's 4 Dinner · Privacy Policy · July 23, 2026
+    </div>
+  </footer>
+</body>
+</html>
